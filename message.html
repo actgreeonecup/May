@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ucapan untuk Maylani</title>
+    <style>
+      body {
+        margin: 0;
+        background: linear-gradient(to bottom right, #fff0f5, #e0c3fc);
+        font-family: "Segoe UI", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 30px;
+      }
+      .card {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        padding: 40px;
+        max-width: 700px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+      }
+      h2 {
+        color: #c2185b;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.8;
+        color: #444;
+      }
+      a {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 20px;
+        background-color: #ba68c8;
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 1em;
+      }
+      button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #f06292;
+        color: white;
+        border: none;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Musik latar otomatis -->
+    <audio id="birthdayMusic" autoplay loop>
+      <source
+        src="audio/Diskoria, Laleilmanino, Eva Celia C.H.R.I.S.Y.E  Lirik Video.mp3"
+        type="audio/mpeg"
+      />
+      Browser Anda tidak mendukung audio.
+    </audio>
+
+    <div class="card">
+      <h2>🌸 Ucapan Spesial untuk May 🌸</h2>
+      <p>
+        Di hari May Dayy yang penuh kebahagiaan ini, aku ingin mengucapkan
+        selamat ulang tahun yang paling tulus untukmu, Maylani Audria Anjani.
+        Semoga setiap langkahmu selalu dipenuhi cahaya, semangat, dan cinta.
+        <br /><br />
+        Terima kasih telah menjadi pribadi yang kuat, penuh senyum, dan selalu
+        memberikan inspirasi bagi orang di sekitarmu. Tahun ini adalah lembaran
+        baru — semoga kamu bisa menulis kisah terbaikmu di dalamnya dan bahagia
+        selalu.
+        <br /><br />
+        Jangan takut untuk melangkah, karena kamu punya kekuatan untuk terus
+        maju. Di setiap harapan yang kamu panjatkan hari ini, semoga Tuhan
+        menjawabnya satu per satu dengan indah. Dan di setiap langkah yang kamu
+        buat selalu ada doa aku yang menyertai mu
+        <br /><br />
+        Selamat ulang tahun, Mayl! 🎂💖 Teruslah menjadi sinar yang menyemangati
+        dunia. <br /><br />Yang mencintaimu <br />
+        Deris Putra Lesmana
+      </p>
+
+      <button onclick="toggleMusic()">🔊 Play/Pause Musik</button>
+      <br /><br />
+      <a href="gallery.html">Lihat Galeri Kenangan 📸</a>
+    </div>
+
+    <script>
+      function toggleMusic() {
+        const music = document.getElementById("birthdayMusic");
+        if (music.paused) {
+          music.play();
+        } else {
+          music.pause();
+        }
+      }
+    </script>
+  </body>
+</html>

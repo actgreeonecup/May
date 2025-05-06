@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galeri Maylani</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f3e5f5;
+        font-family: "Segoe UI", sans-serif;
+        padding: 40px;
+      }
+      h2 {
+        text-align: center;
+        color: #7b1fa2;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.8;
+        color: #444;
+        align-content: center;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+      .gallery img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      a.back {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        text-decoration: none;
+        color: #6a1b9a;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>📸 Maylani Audria Anjani 📸</h2>
+    <p>
+      *Beberapa yang bisa aku lampirkan hanya sebagai pemanis untuk orang yang
+      sangat manis
+    </p>
+    <div class="gallery">
+      <img src="img/1.jpeg" alt="Foto 1" />
+      <img src="img/2.jpeg" alt="Foto 2" />
+      <img src="img/4.jpeg" alt="Foto 3" />
+      <img src="img/5.jpeg" alt="Foto 3" />
+      <img src="img/6.jpeg" alt="Foto 3" />
+      <img src="img/7.jpeg" alt="Foto 3" />
+      <img src="img/8.jpeg" alt="Foto 3" />
+      <img src="img/9.jpeg" alt="Foto 3" />
+      <img src="img/10.jpeg" alt="Foto 3" />
+      <img src="img/11.jpeg" alt="Foto 3" />
+    </div>
+    <a class="back" href="index.html">⬅ Kembali ke Halaman Awal</a>
+  </body>
+</html>
